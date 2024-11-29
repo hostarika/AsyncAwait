@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background-color: bisque;
+}
+
+#person{
+    width: 360px;
+    height: 460px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: blue;
+    color: white;
+ }
+ #person:hover{
+    width: 420px;
+    height: 550px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: blue;
+    color: red;
+    font-size: 20px;
+ }
+ #person img{
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+ }
+ .box{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+ }
+ #random-user{
+    padding: 12px 30px;
+    border-radius: 18px;
+    font-size: 18px;
+    background-color: green;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ #random-user:hover{
+    padding: 18px 36px;
+    border-radius: 25px;
+    font-size: 25px;
+    background-color: green;
+    color: red;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 10px 20px;
+ }
